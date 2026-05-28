@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA SOCIAL DO MESSI</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #c1c8d2; 
+            color: #000000;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+        }
+
+        .profile-container {
+            width: 100%;
+            max-width: 380px;
+        }
+
+        .profile-card {
+            background-color: #dfdfdc; 
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+    
+        .profile-avatar {
+            width: 190px;
+            height: 190px;
+            border-radius: 50%;
+            margin-bottom: 24px;
+            object-fit: cover;
+        }
+
+        .profile-name {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .profile-location {
+            color: #0820f2; 
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .profile-bio {
+            font-size: 14px;
+            color: #003df4;
+            opacity: 0.8;
+            margin-bottom: 24px;
+        }
+
+
+        .profile-links ul {
+            list-style: none;
+        }
+
+        .profile-links li {
+            margin-bottom: 16px;
+        }
+
+        .profile-links li:last-child {
+            margin-bottom: 0;
+        }
+
+        
+        .profile-links a {
+            display: block;
+            background-color: #002fff; 
+            color: #000000;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            padding: 12px;
+            border-radius: 8px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+
+        .profile-links a:hover,
+        .profile-links a:focus {
+            background-color: #c5f82a; 
+            color: #141414;           
+            outline: none;            
+        }
+    </style>
+</head>
+<body>
+
+    <main class="profile-container">
+        <article class="profile-card">
+
+            <header class="profile-header">
+                <img class="profile-avatar" src="https://cdn.conmebol.com/wp-content/uploads/2013/08/000_arp3608107_1.jpg" alt="Foto de Lionel Messi">
+                <h1 class="profile-name">Lionel Messi Santos Da Silva</h1>
+                <p class="profile-location">Jaboatão, Pernambuco</p>
+                <p class="profile-bio">Jogador de futebol, nascido em Moreno</p>
+            </header>
+            
+            <nav class="profile-links">
+                <ul>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Frontend Mentor</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                </ul>
+            </nav>
+
+        </article>
+    </main>
+
+</body>
+</html>
